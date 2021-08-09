@@ -1,0 +1,53 @@
+@media screen and (max-width:855px){
+
+    #navbar ul{
+      flex-direction: column;
+    }
+    .navbar{
+      height: 320px;
+      flex-direction: column;
+      transition: all 0.7s ease-out;
+    }
+    .rightnav{
+      position:unset;
+    }
+    #logo{
+      position: relative;
+      right: 14px;
+    }
+    .btn{
+      position: relative;
+      top: 40px;
+      right: 100px;
+    }
+    .rightnav input{
+      position: relative;
+      left: 36px;
+    }
+    #navbar::before {
+      content: "";
+      background-color: black;
+      position: absolute;
+      height: 120%;
+      width: 100%;
+      z-index: -1;
+      opacity: 0.5;
+  }
+  .burger{
+    display: block;
+  }
+  #search{
+    width: 160px;
+  }
+  #navbar ul li{
+    list-style: none;
+    margin: 18px 5px;
+  }
+  .h-nav{
+    height: 72px;
+  }
+  .v-class{
+    opacity: 0;
+  }
+    
+  }

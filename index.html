@@ -6,21 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Navbar</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
    
   </head>
   <body>
     <header>
-      <nav id="navbar">
+      <nav id="navbar" class="h-nav navbar">
         <div id="logo">
           <img src="image/logo.png" alt="logo image" />
         </div>
-        <ul id="navigation">
+        <ul id="navigation" class="v-class navlist">
           <li class="item"><a href="#">Home</a></li>
           <li class="item"><a href="#">Services</a></li>
           <li class="item"><a href="#">About Us</a></li>
           <li class="item"><a href="#">Contact Us</a></li>
         </ul>
+        <div class="rightnav v-class" >
+          <input type="text" name="search" id="search">
+          <button class="btn btn-sm">search</button>
+        </div>
+        <div class="burger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
       </nav>
     </header>
+    <script src="script.js"></script>
   </body>
 </html>
